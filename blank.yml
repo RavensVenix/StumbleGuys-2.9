@@ -1,0 +1,13 @@
+name: STUMBLE-WORKFLOW
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: stumble-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Running Script...
+      run: main.py
